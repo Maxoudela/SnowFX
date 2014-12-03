@@ -1,9 +1,15 @@
 SnowFX
 ======
 
-A simple class to add some snow to your JavaFX application! I used many lines of code of https://github.com/skrb/JavaFXChristmasCard but I couldn't make it work properly so I made my own project.
+A simple class to add some snow to your JavaFX application! 
 
-The class SnowFX will allow you to add some snow to your application. Simply give your Pane you want snow in into the constructor. Then SnowFX will encapsulate your pane and you just have to add SnowFX at the place where you wanted to place your Pane.
+I used many lines of code of https://github.com/skrb/JavaFXChristmasCard but I couldn't make it work properly so I made my own project.
+
+The class SnowFX will allow you to add some snow to your application. 
+1) Take a Pane where you want snow (Vbox, Hbox, BorderPane etc).
+2) Give it to SnowFX.
+3) Add SnowFX (it extends BorderPane) where you would have normally placed your Pane.
+4) Enjoy the snow and relax :)
 
 ![alt tag](http://i.imgur.com/U3rbYOA.png)
 
